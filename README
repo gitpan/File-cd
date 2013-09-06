@@ -2,7 +2,7 @@ NAME
     File::cd - Easily and safely change directory
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
       use 5.010;
@@ -68,7 +68,7 @@ DESCRIPTION
     arguments are checked at compile time.
 
 AUTHOR
-    Ahmad Syaltut <Isyaltut@gmail.com>
+    Ahmad Syaltut <syaltut at cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2013 by Ahmad Syaltut.

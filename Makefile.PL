@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Easily and safely change directory",
-  "AUTHOR" => "Ahmad Syaltut <Isyaltut\@gmail.com>",
+  "AUTHOR" => "Ahmad Syaltut <syaltut at cpan.org>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -33,7 +33,7 @@ my %WriteMakefileArgs = (
     "FindBin" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

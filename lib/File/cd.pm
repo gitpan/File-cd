@@ -1,6 +1,6 @@
 package File::cd;
 {
-  $File::cd::VERSION = '0.001';
+  $File::cd::VERSION = '0.002';
 }
 
 # ABSTRACT: Easily and safely change directory
@@ -53,7 +53,7 @@ File::cd - Easily and safely change directory
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -128,7 +128,7 @@ arguments are checked at compile time.
 
 =head1 AUTHOR
 
-Ahmad Syaltut <Isyaltut@gmail.com>
+Ahmad Syaltut <syaltut at cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
