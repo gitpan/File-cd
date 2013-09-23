@@ -1,6 +1,6 @@
 package File::cd;
 {
-  $File::cd::VERSION = '0.002';
+  $File::cd::VERSION = '0.003';
 }
 
 # ABSTRACT: Easily and safely change directory
@@ -9,6 +9,7 @@ use strict;
 use warnings;
 
 use Carp qw(croak);
+$Carp::Internal{(__PACKAGE__)} = 1;
 use Cwd ();
 
 
@@ -53,7 +54,7 @@ File::cd - Easily and safely change directory
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 

@@ -11,7 +11,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300036, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.130880'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,4 +26,4 @@ requires:
 resources:
   homepage: https://github.com/Syaltut/File-cd
   repository: ssh://git@github.com:Syaltut/File-cd.git
-version: 0.002
+version: 0.003
